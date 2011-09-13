@@ -333,7 +333,7 @@ UsedLibrary="C:/Program Files (x86)/EAGLE-5.11.0/lbr/zilog.lbr"
 [Win_1]
 Type="Control Panel"
 Loc="100 100 699 499"
-State=2
+State=0
 Number=0
 
 [Desktop]
