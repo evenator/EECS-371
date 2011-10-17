@@ -1,0 +1,2 @@
+(define gsch2pcb:use-m4 #t)
+(component-library "./symbols")

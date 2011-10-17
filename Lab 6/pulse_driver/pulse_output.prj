@@ -1,0 +1,3 @@
+elements-dir ./footprints
+schematics pulse_output.sch
+output-name pulse_output

@@ -1,0 +1,19 @@
+2.  Integration
+a) The integrator is a simple RC circuit with a load of 10 kΩ.  R = 10 kΩ, C = 1 µF.  For the 0-6 V 50% duty cycle pulse wave, the average output voltage was 1.45 V, and ripple (change between min and max output voltage) was 158 mV.  
+
+b) DC output voltage was directly proportional to duty cycle.  For example, when duty cycle was 75%, average output voltage was 2.20 V.  Ripple voltage decreased slightly to 120 mV.  When duty cycle was 25%, average output voltage was 0.69 V, and ripple voltage was 120 mV.  
+
+Ripple voltage was inversely proportional to frequency.  For example, increasing the frequency to 2 kHz decreased ripple to 80 mV (for a 50% duty cycle).  Decreasing the frequency to 500 Hz increased ripple to 310 mV.  
+
+
+Note: graphs show the same point on the circuit: the output.  Channel 1 is DC coupled to read average voltage, and channel 2 is AC coupled for showing and measuring ripple.  
+
+c) When the load is increased to 5 kΩ, the ripple voltage does not change, but the output voltage drops to 0.95 V.  When the load was increased further to 3.3 kΩ, the ripple again stayed constant, but the output voltage dropped to 0.70 V.  
+
+The output voltage of a DC supply with ripple should be defined as the average voltage over a single period of the supply frequency.  
+
+d) When the input is changed to a -3V to +3V square wave, the average voltage goes to -0.03 V (essentially zero usable volts), though the ripple stays the same.  This says that the average voltage of a square wave centered around zero is…zero, which makes sense.  
+
+e/f) The sine wave never gets better than a triangle wave with a single filter.  This is because the filter falls off too slowly to eliminate the harmonics.  When the 3 dB down point is decreased, the square wave's edges become rounded over.  If the frequency is further decreased, the voltage rises and falls so slowly that the edges begin to occur before the voltage has reached ±3 V.  Decreasing the 3 dB point further causes the output to look like a triangle wave, however this triangle wave has a higher harmonic content than when the 3 dB point is higher.  This is because the filter begins to attenuate the fundamental frequency that we are trying to pass.  
+
+g) Adding a second stage does a lot to clean up the "sine wave".  Adding a third does even more, however the loading of the function generator causes funny junk to happen around the edges of the original waveform.  
