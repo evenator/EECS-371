@@ -1,0 +1,26 @@
+Circuit: * Y:\Desktop\Fall 2011\Larry Lab\EECS-371\Lab 7\TrackingSupply.asc
+
+Warning: Multiple definitions of model "bcw68g" Type: BJT
+Warning: Multiple definitions of model "bcw68f" Type: BJT
+Direct Newton iteration for .op point succeeded.
+.step r6=6
+.step r6=1e+006
+
+Date: Mon Oct 17 21:51:30 2011
+Total elapsed time: 0.062 seconds.
+
+tnom = 27
+temp = 27
+method = modified trap
+totiter = 113
+traniter = 74
+tranpoints = 38
+accept = 38
+rejected = 0
+matrix size = 62
+fillins = 48
+solver = Normal
+Matrix Compiler1: off
+Matrix Compiler2: off  [2.0]/2.2/5.9
+
+
