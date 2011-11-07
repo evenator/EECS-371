@@ -31,7 +31,7 @@ T 50800 50600 5 10 1 1 0 6 1
 netname=Load-
 }
 T 43900 49050 9 10 1 0 0 0 1
-Negative Supply
+DC Supply
 T 43500 47600 9 10 1 0 0 0 1
 Zero Crossing Detector
 T 43500 49000 9 10 1 0 0 0 1
