@@ -1,0 +1,25 @@
+v 20100214 2
+C 40350 37200 0 0 0 title-B.sym
+C 43950 36750 1 0 0 gnd-1.sym
+C 44150 37050 1 90 0 resistor-1.sym
+{
+T 43750 37350 5 10 0 0 90 0 1
+device=RESISTOR
+T 43850 37250 5 10 1 1 90 0 1
+refdes=R1
+}
+C 46350 36800 1 90 0 resistor-1.sym
+{
+T 45950 37100 5 10 0 0 90 0 1
+device=RESISTOR
+T 46050 37000 5 10 1 1 90 0 1
+refdes=R?
+}
+C 48600 37450 1 180 0 resistor-1.sym
+{
+T 48300 37050 5 10 0 0 180 0 1
+device=RESISTOR
+T 48400 37150 5 10 1 1 180 0 1
+refdes=R?
+}
+C 46150 36500 1 0 0 gnd-1.sym
