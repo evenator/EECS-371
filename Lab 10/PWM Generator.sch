@@ -91,7 +91,7 @@ device=RESISTOR
 T 45000 47900 5 10 1 1 90 0 1
 refdes=R5
 T 44200 48300 5 10 1 1 0 0 1
-value=27 kΩ
+value=120 kΩ
 }
 C 45300 46800 1 90 0 resistor-1.sym
 {
@@ -100,7 +100,7 @@ device=RESISTOR
 T 45000 47000 5 10 1 1 90 0 1
 refdes=R6
 T 44100 46900 5 10 1 1 0 0 1
-value=8.2 kΩ
+value=15 kΩ
 }
 N 47200 47500 48800 47500 4
 N 46200 43700 46200 47300 4
@@ -116,7 +116,7 @@ device=RESISTOR
 T 46900 48400 5 10 1 1 180 0 1
 refdes=R7
 T 46400 48900 5 10 1 1 0 0 1
-value=27 kΩ
+value=5.6 kΩ
 }
 N 45800 47700 45800 48600 4
 N 45800 48600 46200 48600 4
@@ -154,6 +154,8 @@ C 44200 44000 1 0 0 input-1.sym
 {
 T 44200 44300 5 10 0 0 0 0 1
 device=INPUT
+T 43300 44300 5 10 1 1 0 0 1
+netname=Control Voltage
 }
 N 47700 44100 45000 44100 4
 C 48700 43400 1 0 0 npn-3.sym
@@ -169,6 +171,8 @@ C 52600 44300 1 0 0 output-2.sym
 {
 T 52800 45000 5 10 0 0 0 0 1
 device=none
+T 53600 44300 5 10 1 1 0 0 1
+netname=Output
 }
 C 48800 43900 1 90 0 resistor-1.sym
 {
@@ -185,3 +189,5 @@ I = Vcc * R2/(R1(R2+R4))
 I = 7.9 mA
 T 43400 47600 9 10 1 0 0 0 1
 Vdump = 0.7 * Vcc
+T 49100 45600 9 10 1 0 0 0 1
+Vc2 varies between 5% and 75% of the supply
