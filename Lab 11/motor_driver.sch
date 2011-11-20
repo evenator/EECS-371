@@ -443,7 +443,7 @@ device=OUTPUT
 T 31800 29900 5 10 1 1 0 0 1
 netname=pwm_out
 T 31600 29600 5 10 1 1 0 0 1
-description=15.5kHz
+description=15.2kHz
 }
 N 25600 31100 25600 31400 4
 C 21500 28000 1 90 0 capacitor-1.sym
