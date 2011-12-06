@@ -57,7 +57,7 @@ init_toasting_sub:
 		let state = toasting
 		HIGH B.5 ;Turn on triac
 		counter = 0
-		setint NOT %00000011, %00000010 ; set cancel interrupt
+		setint OR %00000001, %00000011 ; set cancel/lever up interrupt
 	else
 		let state = idle
 	endif
@@ -78,6 +78,12 @@ toasting_sub:
 	endif
 	;toasting speed is determined by toast_time
 	pause toast_time;
+	if pins BIT 0 SET then
+		let state = end_toasting
+	endif
+	if pins BIT 1 CLEAR then
+		let state = end_toasting
+	endif
 	return
 
 end_toasting_sub:
