@@ -14,7 +14,7 @@ symbol max_time = 350 ;This number manually tuned to deal with the stupid amount
 state = init;
 
 main:
-	debug
+	;debug
 	select state
 	case init
 		gosub init_sub
@@ -43,7 +43,7 @@ idle_sub:
 	if toast_time > max_time then
 		toast_time = max_time
 	endif
-	readadc 0, setting
+	readadc 1, setting
 	let setting = setting/28
 	let output_buffer = setting
 	let pins = output_buffer ;Displays setting, also turns off triac and toasting indicator
@@ -99,11 +99,11 @@ end_toasting_sub:
 
 ;Interrupt sub
 interrupt:
-	debug
+	;debug
 	;Check cancel button
-	if PORTA pin0 = 0 then goto cancel
+	if PORTA pin0 = 0 then goto lever
 	;Check lever
-	if PORTA pin1 = 0 then goto lever
+	if PORTA pin1 = 0 then goto cancel
 	return
 
 ;Cancel sub
