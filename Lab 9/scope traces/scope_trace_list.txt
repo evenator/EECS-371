@@ -1,0 +1,32 @@
+scope9 - 0 volt input Input)
+scope11 - 0 gate current (gate voltage)
+
+scope12 - .18v input (input)
+scope13 - .18v input (gate voltage)
+
+scope 14 - .40v input (input)
+scope 15 - .40v input (gate voltage)
+
+scope 16 - .53v input (input)
+scope 17 - .53v input (gate voltage)
+
+scope 18 - .78v input (input)
+scope 19 - .78v input (gate voltage)
+
+scope 20 - 1v input (input)
+scope 21 - 1v input (gate voltage)
+
+scope 22 - 1kHz input (gate voltage)
+scope 23 - 3kHz input (gate voltage)
+scope 24 - 5kHz input (gate voltage)
+scope 25 - 8kHz input (gate voltage)
+scope 26 - 10kHz input (gate voltage)
+
+scope 27 - 1kHz input (ramp voltage)
+scope 28 - 5kHz input (ramp voltage)
+scope 29 - 10kHz input (ramp voltage)
+
+scope 30 - 1kHz input (linearizing ramp power)
+scope 31 - 4kHz input (linearizing ramp power)
+scope 32 - 7kHz input (linearizing ramp power)
+scope 33 - 10kHz input (linearizing ramp power)
